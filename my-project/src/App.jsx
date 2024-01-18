@@ -7,6 +7,8 @@ import Activities from "./Components/Activities";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Whatsapp from "./Components/Whatsapp";
+
 
 const App = () =>{
   return (
@@ -19,6 +21,7 @@ const App = () =>{
           <Projects/>
           <Contact/>
           <Footer/>
+          <Whatsapp/>
       </div>
   );
 };

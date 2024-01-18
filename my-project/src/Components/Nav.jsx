@@ -10,7 +10,7 @@ const Nav = () => {
     <>
       <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-cyan-900 transition">
         <ul className="text-center text-xl p-20">
-          <Link spy={true} smooth={true} to="Banner">
+        <Link spy={true} smooth={true} to="Banner">
             <li className="my-4 py-4 border-b bg-cyan-800 hover:bg-slate-800 hover:rounded">
               Inicio
             </li>
@@ -50,11 +50,7 @@ return (
       <div className="lg:flex md:flex lg:flex-1 center justify-end items font-normal hidden">
         <div className="flex-10">
           <ul className="flex gap-8 mr-16 text-[18px]">
-              <Link spy={true} smooth={true} to="Banner">
-                <li className="hover:text-green-300 transition border-b-2 border-sky-900 hover:border-green-300 cursor-pointer">
-                  Inicio
-                </li>
-              </Link>
+
               <Link spy={true} smooth={true} to="About">
                 <li className="hover:text-green-300 transition border-b-2 border-sky-900 hover:border-green-300 cursor-pointer">
                   Sobre Nosotros

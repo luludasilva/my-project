@@ -1,4 +1,5 @@
 import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from 'react-icons/fa';
 import img from '../assets/escudoblanco.png';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,8 +25,12 @@ const Banner = () => {
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div className="flex space-x-2">
-                            <a href="" ></a>
+                            <a href="https://www.instagram.com/integrasportsmdp/" >
                             <FaInstagram className="text-[35px] rounded-full p-1 glow"/>
+                            </a>
+                            <a href="https://www.facebook.com/integrasports?fref=ts">
+                            <FaFacebook className="text-[35px] rounded-full p-1 glow" />
+                            </a>
                         </div>
                     </div>
                 </div>
