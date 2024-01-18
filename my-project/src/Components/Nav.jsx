@@ -12,27 +12,27 @@ const Nav = () => {
         <ul className="text-center text-xl p-20">
           <Link spy={true} smooth={true} to="Banner">
             <li className="my-4 py-4 border-b bg-cyan-800 hover:bg-slate-800 hover:rounded">
-              Home
+              Inicio
             </li>
           </Link>
           <Link spy={true} smooth={true} to="About">
             <li className="my-4 py-4 border-b bg-cyan-800 hover:bg-slate-800 hover:rounded">
-              About
+              Sobre Nosotros
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Services">
             <li className="my-4 py-4 border-b bg-cyan-800 hover:bg-slate-800 hover:rounded">
-              Services
+              Servicios
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Activities">
             <li className="my-4 py-4 border-b bg-cyan-800 hover:bg-slate-800 hover:rounded">
-              Activities
+              Actividades
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Contact">
             <li className="my-4 py-4 border-b bg-cyan-800 hover:bg-slate-800 hover:rounded">
-              Contact
+              Contacto
             </li>
           </Link>
         </ul>
@@ -44,7 +44,7 @@ return (
     <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 border-b border-cyan-900">
       <div className="flex items-center flex-1 h-5 md-2">
         <span className="text-3xl font-bold text-emerald-200">
-          <img src={img} className=""  style={{ height: "16rem", width: "auto", maxWidth: "100%" }} alt="Logo" />
+          <img src={img} height={400} width={400} className=" object-cover ml-[-6rem]"  /*style={{ height: "16rem", width: "auto", maxWidth: "100%" }}*/ alt="Logo" />
         </span>
       </div>
       <div className="lg:flex md:flex lg:flex-1 center justify-end items font-normal hidden">

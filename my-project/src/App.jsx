@@ -4,6 +4,9 @@ import Banner from "./Components/Banner";
 import About from "./Components/About";
 import Services from "./Components/Services"
 import Activities from "./Components/Activities";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 const App = () =>{
   return (
@@ -13,6 +16,9 @@ const App = () =>{
           <About/>
           <Services/>
           <Activities/>
+          <Projects/>
+          <Contact/>
+          <Footer/>
       </div>
   );
 };

@@ -2,7 +2,7 @@
 import img from "../assets/foto1.png"
 const About = () => {
     return (
-        <div id="About" className="lg:px-10 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+        <div id="About" className="lg:px-10 px-10 lg:py-0 py-10 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
              <img data-aos="fade-up" src={img} width={800} height={800} className="rounded border-2 p-1 border-emerald-600 img_glow" alt=""/>
             <div data-aos="fade-right" className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white text-justify">
                 <h1 className="text-[52px] font-semibold mb-8 leading-normal uppercase">Sobre nosotros </h1>

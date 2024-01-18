@@ -14,7 +14,7 @@ const Banner = () => {
 
     
     return (
-        <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-20 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-50 items-center">
+        <div className="lg:px-56 px-10 lg:py-0 py-10 text-center gap-20 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-50 items-center">
             <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
                 <h1 data-aos="fade-right"className="text-[70px] font-semibold mb-8 leading-normal uppercase">Bienvenidos a <span className="text-teal-500 "> INTEGRA SPORT</span></h1>
                 <p data-aos="fade-right" className="text-justify">Somos una escuela multideportiva dirigida exclusivamente a niños y adolescentes con discapacidad.<span></span>
