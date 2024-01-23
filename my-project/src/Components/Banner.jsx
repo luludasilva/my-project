@@ -17,7 +17,7 @@ const Banner = () => {
     return (
         <div className="lg:px-56 px-10 lg:py-0 py-10 text-center gap-20 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-50 items-center">
             <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
-                <h1 data-aos="fade-right"className="text-[70px] font-semibold mb-8 leading-normal uppercase">Bienvenidos a <span className="text-teal-500 "> INTEGRA SPORT</span></h1>
+                <h1 data-aos="fade-right"className="text-[70px] font-semibold mb-8 leading-normal uppercase">Bienvenidos a <span className="text-teal-500 "> INTEGRA SPORTS</span></h1>
                 <p data-aos="fade-right" className="text-justify">Somos una escuela multideportiva dirigida exclusivamente a niños y adolescentes con discapacidad.<span></span>
                 Formada por Profesores de Educación Física, que trabajan de forma independiente y en diferentes instituciones, brindando iniciación en actividades acuáticas y multiderportivas. <br />
                 Nuestra misión: Mejorar los aspectos físicos, sociales, afectivos y psiquicos de niños y adolescentes con discapacidad, procurando contribuir a su formación integral y aportando desde nuestra área, la eduacion física, herramientas para que logren desenvolverse de la forma más autónoma posible en la sociedad y de esta forma puedan alcanzar una plena integración social, educativa, cultural y laboral. 

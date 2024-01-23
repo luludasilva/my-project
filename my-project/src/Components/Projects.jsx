@@ -15,7 +15,7 @@ const Projects = () => {
                 <img data-aos="fade-down"height={400} width={400} className="w-full h-full object-cover flex items-center justify-center font-semibold text-teal-500 rounded-3xl p-1 border-2 border-emerald-600 b_glow" src={img4} alt="" />
            </div>
            <div className="p-2 px-1 flex flex-col items-center justify-center">
-                <img data-aos="fade-up"height={400} width={400} className="w-full h-full object-cover flex items-center justify-center font-semibold text-teal-500 rounded-3xl p-1 border-2 border-emerald-600 b_glow" src={img} alt="" />
+                <img data-aos="fade-up" height={400} width={400} className="w-full h-full object-cover flex items-center justify-center font-semibold text-teal-500 rounded-3xl p-1 border-2 border-emerald-600 b_glow" src={img} alt="" />
         </div>
             
         </div>

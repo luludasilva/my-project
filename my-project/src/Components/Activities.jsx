@@ -12,7 +12,7 @@ const Activities = () => {
             <h2 data-aos="fade-up"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Fútbol</h2>
             <h2 data-aos="fade-down"className="text-[26px] flex items-center justify-center text-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Gimnasia Artística</h2>
             <h2 data-aos="fade-up"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Patín Carrera</h2>
-            <h2 data-aos="fade-down"className="text-[26px] flex items-center justify-center text-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Nado Sincronizado</h2>
+            <h2 data-aos="fade-down"className="text-[26px] flex items-center justify-center text-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Natación Artística</h2>
             <h2 data-aos="fade-up"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Waterpolo</h2>
             <h2 data-aos="fade-down"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Voleyball</h2>
             <h2 data-aos="fade-up"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Hockey</h2>
@@ -20,6 +20,9 @@ const Activities = () => {
             <h2 data-aos="fade-up"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Tenis</h2>
             <h2 data-aos="fade-down"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Tenis de Mesa</h2>
             <h2 data-aos="fade-up"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Atletismo</h2>
+            <h2 data-aos="fade-down"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Goalball</h2>
+            <h2 data-aos="fade-up"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Fútbol Ciegos</h2>
+            <h2 data-aos="fade-down"className="text-[26px] flex items-center justify-center font-semibold text-teal-500 rounded-3xl h-36 w-44 border-2 border-emerald-600 b_glow">Boccias</h2>
          </div>
         </div>
     );
