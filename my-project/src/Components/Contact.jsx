@@ -7,12 +7,16 @@ const Contact = () => {
     message: '',
   });
 
+  const [submitting, setSubmitting] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState(null);
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setSubmitting(true);
 
     try {
       const response = await fetch('http://localhost:3000/api/send-mail ', {
@@ -24,9 +28,21 @@ const Contact = () => {
       });
 
       const result = await response.json();
-      console.log(result);
+     if (result.success) {
+        setSubmitSuccess(true);
+        setFormData({
+          name: '',
+          email: '',
+          message: '',
+        });
+      } else {
+        setSubmitSuccess(false);
+      }
     } catch (error) {
       console.error('Error al enviar el formulario:', error);
+      setSubmitSuccess(false);
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -65,12 +81,18 @@ const Contact = () => {
         <button
           className="neno-button shadow-xl hover:shadow-emerald-600/50 text-white border-2 border-emerald-600 hover:bg-cyan-800 rounded-lg py-4 px-8 my-6 uppercase relative overflow-hidden b_glow text-xl text-bold md-10"
           type="submit"
+          disabled={submitting}
         >
-          Enviar
+          {submitting ? 'Enviando...' : 'Enviar'}
         </button>
+        {submitSuccess !== null && (
+          <div className={`text-${submitSuccess ? 'green' : 'red'}-500 text-center mt-2`}>
+            {submitSuccess ? '¡Mensaje enviado con éxito!' : 'Error al enviar el mensaje. Por favor, inténtalo de nuevo.'}
+          </div>
+        )}
       </form>
     </div>
   );
 };
 
-export default Contact;
+export default Contact;       
