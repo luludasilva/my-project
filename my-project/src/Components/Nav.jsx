@@ -35,6 +35,11 @@ const Nav = () => {
               Contacto
             </li>
           </Link>
+          <Link spy={true} smooth={true} to="Notes">
+            <li className="my-4 py-4 border-b bg-cyan-800 hover:bg-slate-800 hover:rounded">
+              Notas 
+            </li>
+          </Link>
         </ul>
       </div>
     </>
@@ -69,6 +74,11 @@ return (
               <Link spy={true} smooth={true} to="Contact">
                 <li className="hover:text-green-300 transition border-b-2 border-sky-900 hover:border-green-300 cursor-pointer">
                   Contacto
+                </li>
+              </Link>
+              <Link spy={true} smooth={true} to="Notes">
+                <li className="hover:text-green-300 transition border-b-2 border-sky-900 hover:border-green-300 cursor-pointer">
+                  Notas
                 </li>
               </Link>
             </ul>

@@ -7,8 +7,8 @@ import Activities from "./Components/Activities";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import Whatsapp from "./Components/Whatsapp";
 import { ThreeCircles } from 'react-loader-spinner';
+import Notes from "./Components/Notes";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -44,7 +44,7 @@ const App = () => {
           <Activities />
           <Projects />
           <Contact />
-          <Whatsapp />
+          <Notes />
           <Footer />
         </div>
       )}
