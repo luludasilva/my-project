@@ -32,7 +32,7 @@ const Contact = () => {
 
   return (
     <div id="Contact" className="p-4 lg:p-20 flex flex-col items-center justify-center">
-      <h1 data-aos="fade-right" className="text-[70px] font-semibold mb-8 leading-normal uppercase text-white">Contáctanos</h1>
+      <h1 data-aos="fade-right" className="text-[70px] font-semibold mb-8 leading-normal uppercase text-white">Contactanos</h1>
       <form data-aos="fade-left" action="" className="flex flex-col gap-2 lg:w-1/2" onSubmit={handleSubmit}>
         <div className="lg:flex gap-9">
           <input
