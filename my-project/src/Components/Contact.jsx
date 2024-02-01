@@ -23,8 +23,20 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
 
+<<<<<<< Updated upstream
       const result = await response.json();
       console.log(result);
+=======
+      await emailjs.send(
+        'service_hqhrl5t', 
+        'template_q2nnp7t',
+        templateParams,
+        'uprZx6gd27CXtz5_j' 
+      );
+
+      console.log('Email sent successfully');
+     
+>>>>>>> Stashed changes
     } catch (error) {
       console.error('Error al enviar el formulario:', error);
     }
