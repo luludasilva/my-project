@@ -36,6 +36,9 @@ const App = () => {
       ) : (
 
         <div className="bg-cyan-900">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-8_PQNQLaOhKfUPA1yz4pqF4wJGUoAohLIQLciGW7pibDgg/viewform?usp=pp_url" target="_blank" class="fixed bottom-4 right-4 bg-teal-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600">
+      Contactanos!
+    </a>
           <Nav />
           <Banner />
           <About />
