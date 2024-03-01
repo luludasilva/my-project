@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -15,24 +16,31 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:3000/mail ', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+      const templateParams = {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      };
 
-      const result = await response.json();
-      console.log(result);
+      await emailjs.send(
+        'service_hqhrl5t', 
+        'template_q2nnp7t',
+        templateParams,
+        'uprZx6gd27CXtz5_j' 
+      );
+
+      console.log('Email sent successfully');
+     
     } catch (error) {
-      console.error('Error al enviar el formulario:', error);
+      console.error('Error handling form submission:', error);
     }
   };
 
   return (
     <div id="Contact" className="p-4 lg:p-20 flex flex-col items-center justify-center">
-      <h1 data-aos="fade-right" className="text-[70px] font-semibold mb-8 leading-normal uppercase text-white">Contactanos</h1>
+      <h1 data-aos="fade-right" className="text-[70px] font-semibold mb-8 leading-normal uppercase text-white">
+        Contáctanos
+      </h1>
       <form data-aos="fade-left" action="" className="flex flex-col gap-2 lg:w-1/2" onSubmit={handleSubmit}>
         <div className="lg:flex gap-9">
           <input

@@ -30,11 +30,13 @@ const Nav = () => {
               Actividades
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Contact">
+          
             <li className="my-4 py-4 border-b bg-cyan-800 hover:bg-slate-800 hover:rounded">
-              Contacto
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-8_PQNQLaOhKfUPA1yz4pqF4wJGUoAohLIQLciGW7pibDgg/viewform?usp=pp_url" className="text-white">
+      Contacto
+    </a>
             </li>
-          </Link>
+         
           <Link spy={true} smooth={true} to="Notes">
             <li className="my-4 py-4 border-b bg-cyan-800 hover:bg-slate-800 hover:rounded">
               Notas 
@@ -71,11 +73,13 @@ return (
                   Actividades
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="Contact">
+              
                 <li className="hover:text-green-300 transition border-b-2 border-sky-900 hover:border-green-300 cursor-pointer">
-                  Contacto
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-8_PQNQLaOhKfUPA1yz4pqF4wJGUoAohLIQLciGW7pibDgg/viewform?usp=pp_url" className="text-white">
+      Contacto
+    </a>
                 </li>
-              </Link>
+             
               <Link spy={true} smooth={true} to="Notes">
                 <li className="hover:text-green-300 transition border-b-2 border-sky-900 hover:border-green-300 cursor-pointer">
                   Notas
